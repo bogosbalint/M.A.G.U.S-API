@@ -1,4 +1,4 @@
-﻿namespace Api.Models.Weapon
+﻿namespace Api.Models.WeaponModels
 {
     public class Weapon
     {
@@ -18,9 +18,9 @@
         public int PriceGold { get; set; } = 0;
         public int PriceSilver { get; set; } = 0;
         public int PriceCopper { get; set; } = 0;
-        public bool Disarm { get; set; } = false;
-        public bool WeaponBreakage { get; set; } = false;
-        public bool PunchTrough { get; set; } = false;
+        public bool Disarm { get; set; } = false; // Lefegyverzés
+        public bool WeaponBreakage { get; set; } = false; // Fegyvertörés
+        public bool PunchTrough { get; set; } = false; // Átütés
         public int STP { get; set; }
     }
 }
