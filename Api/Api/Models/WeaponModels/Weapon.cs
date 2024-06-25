@@ -3,8 +3,8 @@
     public class Weapon
     {
         public Guid Id { get; set; } = new Guid();
-        public List<Translation> Name { get; set; }
-        public List<Translation> Desc { get; set; }
+        public string Name { get; set; }
+        public string Desc { get; set; }
         public Category Category { get; set; }
         public SubCategory SubCategory { get; set; }
         public int Time {  get; set; }
